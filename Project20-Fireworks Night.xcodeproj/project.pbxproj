@@ -9,24 +9,26 @@
 /* Begin PBXBuildFile section */
 		00AFD2FA2BA1579C006E2935 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AFD2F92BA1579C006E2935 /* AppDelegate.swift */; };
 		00AFD2FC2BA1579C006E2935 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 00AFD2FB2BA1579C006E2935 /* GameScene.sks */; };
-		00AFD2FE2BA1579C006E2935 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 00AFD2FD2BA1579C006E2935 /* Actions.sks */; };
 		00AFD3002BA1579C006E2935 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AFD2FF2BA1579C006E2935 /* GameScene.swift */; };
 		00AFD3022BA1579C006E2935 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AFD3012BA1579C006E2935 /* GameViewController.swift */; };
 		00AFD3052BA1579C006E2935 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00AFD3032BA1579C006E2935 /* Main.storyboard */; };
 		00AFD3072BA157A2006E2935 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00AFD3062BA157A2006E2935 /* Assets.xcassets */; };
 		00AFD30A2BA157A2006E2935 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00AFD3082BA157A2006E2935 /* LaunchScreen.storyboard */; };
+		00AFD3122BA157FE006E2935 /* fuse.sks in Resources */ = {isa = PBXBuildFile; fileRef = 00AFD3102BA157FE006E2935 /* fuse.sks */; };
+		00AFD3132BA157FE006E2935 /* explode.sks in Resources */ = {isa = PBXBuildFile; fileRef = 00AFD3112BA157FE006E2935 /* explode.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		00AFD2F62BA1579C006E2935 /* Project20-Fireworks Night.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project20-Fireworks Night.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00AFD2F92BA1579C006E2935 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00AFD2FB2BA1579C006E2935 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		00AFD2FD2BA1579C006E2935 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		00AFD2FF2BA1579C006E2935 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		00AFD3012BA1579C006E2935 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		00AFD3042BA1579C006E2935 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00AFD3062BA157A2006E2935 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00AFD3092BA157A2006E2935 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00AFD3102BA157FE006E2935 /* fuse.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = fuse.sks; sourceTree = "<group>"; };
+		00AFD3112BA157FE006E2935 /* explode.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = explode.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,12 +63,13 @@
 			children = (
 				00AFD2F92BA1579C006E2935 /* AppDelegate.swift */,
 				00AFD2FB2BA1579C006E2935 /* GameScene.sks */,
-				00AFD2FD2BA1579C006E2935 /* Actions.sks */,
 				00AFD2FF2BA1579C006E2935 /* GameScene.swift */,
 				00AFD3012BA1579C006E2935 /* GameViewController.swift */,
 				00AFD3032BA1579C006E2935 /* Main.storyboard */,
 				00AFD3062BA157A2006E2935 /* Assets.xcassets */,
 				00AFD3082BA157A2006E2935 /* LaunchScreen.storyboard */,
+				00AFD3112BA157FE006E2935 /* explode.sks */,
+				00AFD3102BA157FE006E2935 /* fuse.sks */,
 			);
 			path = "Project20-Fireworks Night";
 			sourceTree = "<group>";
@@ -131,9 +134,10 @@
 			files = (
 				00AFD3052BA1579C006E2935 /* Main.storyboard in Resources */,
 				00AFD2FC2BA1579C006E2935 /* GameScene.sks in Resources */,
+				00AFD3132BA157FE006E2935 /* explode.sks in Resources */,
+				00AFD3122BA157FE006E2935 /* fuse.sks in Resources */,
 				00AFD3072BA157A2006E2935 /* Assets.xcassets in Resources */,
 				00AFD30A2BA157A2006E2935 /* LaunchScreen.storyboard in Resources */,
-				00AFD2FE2BA1579C006E2935 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,8 +308,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,8 +335,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
